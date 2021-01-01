@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "version" : [
+      1,
+      0,
+      0
+    ],
+    "name" : "LavaBot",
+    "description" : "A series of commands designed to thwart most lag attempts while still adding a way to keep certain players immune",
+    "uuid" : "2a8c154f-d2f5-4db6-b05f-08f689d26a7a"
+  },
+  "modules" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "type" : "data",
+      "description" : "Made by Lavagames",
+      "uuid" : "54d7262c-575d-467f-935a-edab81541599"
+    }
+  ],
+  "format_version" : 1
+}
