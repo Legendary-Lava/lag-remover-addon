@@ -5,6 +5,7 @@ function execute(command) {
     system.executeCommand(command, (commandResults) => commandCallBack(commandResults))
 }
 execute(`gamerule sendcommandfeedback false`)
+execute(`gamerule respawnblocksexplode false`)
 execute(`gamerule dodaylightcycle false`)
 execute(`gamerule doweathercycle false`)
 execute(`gamerule mobgriefing false`)
@@ -32,7 +33,6 @@ execute(`execute @a[type=!vip] ~ ~ ~ clear @s[x=~,y=320,z=~,r=364] tropical_fish
 execute(`execute @a[type=!vip] ~ ~ ~ clear @s[x=~,y=320,z=~,r=364] water_bucket`)
 execute(`execute @a[type=!vip] ~ ~ ~ clear @s[x=~,y=320,z=~,r=364] tadpole_bucket`)
 execute(`execute @a[type=!vip] ~ ~ ~ clear @s[x=~,y=320,z=~,r=364] axolotl_bucket`)
-execute(`clear @a[tag=!vip] respawn_anchor`)
 execute(`clear @a[tag=!vip] fire_charge`)
 execute(`clear @a[tag=!vip] arrow`)
 execute(`clear @a[tag=!vip] potion 7`)
